@@ -1,7 +1,32 @@
 header {
     text-align: center;
     font: helvetica sans-serif;
-    background: #C2925E;
+    background: #514438;
     color: #fff;
+
+}
+header h1 {
+    font-size: 3em;
+
+}
+
+nav {
+    align-content: center;
+}
+   
+nav ul li {
+    list-style:none;
+    display: inline-block;
+    font-size: 1.5em;
+
+}
+
+a {
+    background: #fff;
+    color: #C2925E;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
 
 }
