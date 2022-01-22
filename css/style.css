@@ -7,23 +7,15 @@
 }
 body {
     font-family: Lato, sans-serif;
-    margin: 0;
-    border: 0;
-    padding: 0;
+    font-weight: 300;
+    color: #3a3a3a;
 }
-header {
-    text-align: left;
-    font: helvetica sans-serif;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    float: left;
-   
-}
-header h1 {
-    font-size: 280%;
-   
-}
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
 
 nav {
     align-content: center;
