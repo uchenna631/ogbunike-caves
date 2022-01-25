@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+* {
+    margin: 0;
+    border: 0;
+    padding: none;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+.container {
+  max-width: 90%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#logo {
+    float: left;
+    font-size: 280%;
+}
+ 
+/*Navigation links*/
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+/*Hero Image*/
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.jpg) no-repeat center center;
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+.footer {
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  min-height: 2rem;
+}
+/* create the level of zoom for hero-image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(360, 360, 360, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
