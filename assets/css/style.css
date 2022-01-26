@@ -7,14 +7,18 @@
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: black;
+}
+
+h1 {
+    color: #fff;
 }
 h1, h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
 }
+
 .container {
   max-width: 90%;
   width: 100%;
@@ -23,9 +27,22 @@ h1, h2 {
   margin-right: auto;
   margin-left: auto;
 }
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 4em;
+    color: #fff;
+    background-color: #3a3a3a;
+    align-content: center;
+}
+
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
+
 }
  
 /*Navigation links*/
@@ -46,11 +63,12 @@ h1, h2 {
     color: inherit;
 }
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #fff;
 }
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #fff;
 }
+
 /*Hero Image*/
 #hero-outer {
     height: 600px;
@@ -64,17 +82,13 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
+
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-.footer {
-  background-color: #3a3a3a;
-  color: white;
-  text-align: center;
-  min-height: 2rem;
-}
+
 /* create the level of zoom for hero-image */
 @keyframes hero-zoom {
     from {
@@ -85,6 +99,7 @@ h1, h2 {
     }
 }
 
+/* Hero image cover text */
 #cover-text {
     font-size: 130%;
     font-family: "Oswald", sans-serif;
@@ -103,4 +118,35 @@ h1, h2 {
     right: 150px;
 
     position: absolute;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #3a3a3a;
+    color: white;
+    text-align: center;
+    height: 75px;
+   }
+  
+  small {
+      margin: 2px 1px;
+      padding: 5px;
+  }
+.footer ul {     
+    list-style: none;   
+}
+
+.footer li {
+    display: inline;
+    padding: 4%;
+    margin-bottom: 2px;
+    
+}
+footer i {
+    color: #fff;
+    margin-top: 10px;
+    border: 4px;
+    font-size: 160%;
 }
