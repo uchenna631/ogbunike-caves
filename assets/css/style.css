@@ -148,3 +148,15 @@ footer i {
     border: 0;
     font-size: 160%;
 }
+
+/* Gallery images */
+#photos {
+    clear:both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+img {
+    width: 100%;
+}
