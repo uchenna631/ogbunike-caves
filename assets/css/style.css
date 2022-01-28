@@ -219,3 +219,26 @@ small p {
 img {
     width: 100%;
 }
+
+/* Booking form */
+
+#booking-form {
+    width: 40%;
+    float: left;
+    margin: 20px;
+    border-radius: 2px; 
+}
+
+form .text, form #email, form #mnumber, form #datetime {
+    width: 100%;
+    border: 1px solid #30ad23;
+    border-radius: 2px;
+    margin: 5px 0;
+}
+
+form #submit {
+    border: 1px solid #d21126;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color:#30ad23 ;
+}
