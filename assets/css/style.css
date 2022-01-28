@@ -67,7 +67,10 @@ a {
     color: inherit;
 }
 
+
 #menu a:hover {
+    color:  #30ad23;
+    font-size: 110%;
     border-bottom: 1px solid #30ad23;
 }
 
@@ -132,8 +135,15 @@ a {
 #overview {
     width: 100%;
     padding: none;
-    margin: 20px 0;    
-    background-size: cover;
+    margin: 30px 0;    
+}
+
+#overview div {
+    margin: 25px 0;
+}
+
+#overview a {
+    border-bottom: 1px solid #30ad23;
 }
 
 #overview a:hover {
