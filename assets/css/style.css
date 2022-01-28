@@ -161,11 +161,15 @@ hr {
 
 }
 
-#times, #booking {
+/* #times, #booking {
     width: 50%;
-    height: 200px;
+    height: 300px;
     float: left;
     left: 30px;
+} */
+
+#booking div h3, #booking div p{
+    display: inline;
 }
 
 
