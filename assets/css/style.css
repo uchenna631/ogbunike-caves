@@ -138,8 +138,18 @@ a {
     margin: 30px 0;    
 }
 
-#overview div {
-    margin: 25px 0;
+#overview h2 {
+    width: 180px;
+}
+
+hr {
+    border-top: 1px solid #555;
+}
+
+#overview h3 {
+    margin: 20px 0 10px;
+    padding: 0;
+
 }
 
 #overview a {
@@ -149,6 +159,13 @@ a {
 #overview a:hover {
     color: #30ad23;
 
+}
+
+#times, #booking {
+    width: 50%;
+    height: 200px;
+    float: left;
+    left: 30px;
 }
 
 
