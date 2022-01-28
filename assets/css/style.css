@@ -248,19 +248,21 @@ form #submit {
     margin: 5px 15% 5px 0;
     background-color:#30ad23;
     float: right;
+    font-size: 110%;
+
 }
 
 #opening-times, #booking-rate {
     width: 28%;
     float: left;
-    margin: 30px 0 10px 2%;
+    margin: 30px 0 20px 2%;
     /* text-align: center; */
 }
 
  #address {
     width: 28%;
     float: left;
-    margin: 20px 0 10px 2%;
+    margin: 0 0 10px 2%;
     /* text-align: center; */
     position: relative;
 } 
