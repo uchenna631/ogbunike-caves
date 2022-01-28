@@ -179,6 +179,7 @@ hr {
    border-top: 1px solid #555;
    margin: 0;
    padding: 5px;
+   clear: both;
 }
 
   
@@ -222,23 +223,51 @@ img {
 
 /* Booking form */
 
+.visit h3 {
+    margin: 20px;
+    
+}
+
 #booking-form {
     width: 40%;
     float: left;
-    margin: 20px;
-    border-radius: 2px; 
+    margin: 30px 0 10px;
 }
 
 form .text, form #email, form #mnumber, form #datetime {
-    width: 100%;
+    width: 85%;
     border: 1px solid #30ad23;
     border-radius: 2px;
     margin: 5px 0;
+    display: block;
 }
 
 form #submit {
     border: 1px solid #d21126;
     border-radius: 5px;
-    margin: 5px 0;
-    background-color:#30ad23 ;
+    margin: 5px 15% 5px 0;
+    background-color:#30ad23;
+    float: right;
 }
+
+#opening-times, #booking-rate {
+    width: 28%;
+    float: left;
+    margin: 30px 0 10px 2%;
+    /* text-align: center; */
+}
+
+ #address {
+    width: 28%;
+    float: left;
+    margin: 20px 0 10px 2%;
+    /* text-align: center; */
+    position: relative;
+} 
+
+#google-map {
+    clear: both;
+    width: 90%;
+    height: 200px;
+}
+
