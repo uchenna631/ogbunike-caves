@@ -96,7 +96,7 @@ a {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/ogbunike-background-image.jpg) no-repeat center center;
+    background: url(../images/ogbunike\ hero-image.jpg) no-repeat center center;
     background-size: cover;
 
     /* animates zoom effect on loading page */
@@ -216,6 +216,10 @@ small p {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    background-image: url(../images/gallery\ background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img {
