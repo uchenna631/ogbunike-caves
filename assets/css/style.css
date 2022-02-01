@@ -96,7 +96,7 @@ a {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/ogbunike\ hero-image.jpg) no-repeat center center;
+    background: url(../images/ogbunike-hero-image.jpg) no-repeat center center;
     background-size: cover;
 
     /* animates zoom effect on loading page */
