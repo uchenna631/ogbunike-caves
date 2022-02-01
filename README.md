@@ -1,54 +1,57 @@
-Ogbunike Caves
+# Ogbunike Caves
 
 Ogbunike Caves is a collection of caves in Ogbunike, Oyi local government area, Anambra Nigeria. It is a natural tourist attraction and one of the UNESCO world heritage sites. This site hopes to provide an accurate account of the historical facts and events about Ogbunike Caves. Tourist will have an overview of what it is like to visit Ogbunike Caves. It also hopes to promote the publicity and awareness of Ogbunike Caves in view to attract more tourist and the necessary support towards its conservation.
 the preservation of Ogbunike Caves.
 
-Responsice Mockup
+# Existing Features
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+*Navigation Bar
 
-Existing Features
-Navigation Bar
-
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About page, Visit page and Gallery page. These pages are identical to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+
+<!-- Nav Bar -->
 
 The landing page image
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
-Landing Page
+The landing includes a photograph with text overlay to allow the user to see exactly which location this site is referring to.
+This section introduces the user to Ogbunike Caves with an eye catching animation to grab their attention
 
-Club Ethos Section
+<!-- Landing Page -->
 
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-Club Ethos
+Overview Section
 
-Meetup Times section
+The overview section will allow the user to have a preview about the Ogbunike Caves with a link to the About page, the adventures in Ogbunike Caves, the opening time and the cost of booking a visit.
 
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
-Meetup Times
+<!-- Overview -->
 
 The Footer
 
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
+The footer section includes links to the relevant social media sites (hypothetical social media site) for Ogbunike Caves. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media
-Footer
+
+*Footer*
+
+The About Page
+
+This page will allow the user to see the activities in Ogbunike cave as well as its history.
+
+The Visit Page
+
+This page will allow the user to see the opening times, the type of bookings available and it will also permit the user to book a visit. 
+The user will be asked to submit their full name, email address, phone number, booking date/time and the type of booking chosen.
+
+*visit*
 
 Gallery
 
-The gallery will provide the user with supporting images to see what the meet ups look like.
-This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-Gallery
+The gallery will provide the user with supporting images to see the features of Ogbunike cave .
+This section is valuable to the user as they will be able to easily identify the adventures and it is like to engage in it.
 
-The Sign Up Page
+*Gallery*
 
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-Sign Up
+
+
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
