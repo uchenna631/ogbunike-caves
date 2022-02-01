@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+/* Clear default margin, padding and border */
 * {
     margin: 0;
     border: 0;
@@ -48,7 +50,7 @@ a {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 30px;
+    margin-left: 30px 0;
     color:#30ad23;
 }
  
@@ -122,10 +124,8 @@ a {
 
     width: 300px;
     height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
+    padding: 10px;
+   
     background-color: rgba(248, 248, 255, 0.7);
 
     bottom: 30px;
@@ -225,8 +225,7 @@ img {
 /* Booking form */
 
 .visit h3 {
-    margin: 20px;
-    
+    margin: 10px 0;
 }
 
 #booking-form, #opening-times, #booking-rate {
@@ -236,13 +235,12 @@ img {
     box-sizing: border-box;
 }
 
-#opening-times, #booking-rate {
-    text-align: center;
-    line-height-step: 200%;
+.visit p {
+    padding-top: 10px;
 }
 
 .radio {
-    margin: 0 10px;
+    margin: 5px 10px;
 }
 
 form .text, form #email, form #mnumber, form #datetime {
@@ -256,7 +254,8 @@ form .text, form #email, form #mnumber, form #datetime {
 form #submit {
     border: 1px solid #555;
     border-radius: 5px;
-    margin: 10px 15% 10px 0;
+    padding: 5px;
+    margin-top: 15px;
     background-color:#8bf182;
     font-size: 120%;
 }
