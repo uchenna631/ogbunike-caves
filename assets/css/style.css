@@ -4,9 +4,17 @@
 * {
     margin: 0;
     border: 0;
-    padding: none;
+    padding: 0;
 }
 
+/* body container */
+.container {
+    max-width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -26,15 +34,6 @@ p {
     text-justify: auto;
 }
 
-.container {
-  max-width: 90%;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 a {
     color: #555; 
     text-decoration: none;   
@@ -50,13 +49,11 @@ a {
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 30px 0;
     color:#30ad23;
 }
  
 /*Navigation links*/
 #menu {
-    font-size: 100%;
     letter-spacing: 4px;
 }
 #menu, #logo {
@@ -68,6 +65,7 @@ a {
     list-style: none;
     margin-right: 30px;
 }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -129,7 +127,7 @@ a {
     background-color: rgba(248, 248, 255, 0.7);
 
     bottom: 30px;
-    right: 150px;
+    right: 120px;
 
     position: absolute;
 }
@@ -138,7 +136,6 @@ a {
 
 #overview {
     width: 100%;
-    padding: none;
     margin-top: 30px;    
 }
 
@@ -146,7 +143,7 @@ a {
     box-sizing: border-box;
     float: left;
     width: 25%;  
-    margin: 30px, 0;
+    margin: 30px 0;
     padding: 20px;
     border: 2px solid #f8f8ff;
        
@@ -282,3 +279,22 @@ iframe {
     text-align: justify;
     margin: 20px 0;
 }
+
+@media screen and (max-width: 1200px) {
+    #cover-text{
+        right: 50px;
+        font-size: 100%;
+        width: 250px;
+        height: 180px;
+    }
+
+    #logo {
+        font-size: 250%;
+    }
+
+    #menu li {
+       margin-right: 20px;
+    }
+    
+}
+
