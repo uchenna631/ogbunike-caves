@@ -10,7 +10,7 @@ the preservation of Ogbunike Caves.
 Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About page, Visit page and Gallery page. These pages are identical to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-
+![Navigation bar](https://github.com/uchenna631/ogbunike-caves/blob/main/assets/images/navigation%20bar.JPG?raw=true)
 
 The landing page image
 
