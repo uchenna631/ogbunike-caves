@@ -280,6 +280,7 @@ iframe {
     margin: 20px 0;
 }
 
+/* Media querry for screen size 1200px and down */
 @media screen and (max-width: 1200px) {
     #cover-text{
         right: 50px;
@@ -294,6 +295,10 @@ iframe {
 
     #menu li {
        margin-right: 20px;
+    }
+
+    #photos {
+        column-count: 3;
     }
     
 }
