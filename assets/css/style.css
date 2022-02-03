@@ -134,18 +134,22 @@ a {
 /* Overview section */
 
 #overview {
-    width: 100%;
+    width: auto;
     margin-top: 30px;    
 }
 
 #overview .overview {
-    box-sizing: border-box;
     float: left;
-    width: 25%;  
-    margin: 30px 0;
-    padding: 20px;
-    border: 2px solid #f8f8ff;
-       
+    width: 22.5%;  
+    margin: 30px 10px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-sizing: border-box;     
+}
+
+.overview ul {
+    list-style-position: inside;
 }
 
 #overview h2 {
