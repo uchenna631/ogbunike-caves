@@ -228,7 +228,6 @@ img {
 }
 
 /* Booking form */
-
 .visit h3 {
     margin: 10px 0;
 }
@@ -327,7 +326,12 @@ iframe {
 
     #photos {
         column-count: 3;
-    }   
+    }
+    
+    #about-page {
+        width: 95%;
+        margin: 10px;
+    }
 }
 
 /* Media querry for screen size 800px and down */
@@ -351,13 +355,14 @@ iframe {
     }
 
     section .overview {
-        width: 43%;
-        padding: 10px;
-        border-radius: 5px;
+        width: 45%;
+        margin: 10px;
+        padding: 5px;
     }
 
     #about-page, #booking-form {
         clear: both;
+        width: 90%;
     }
 
     #booking-form, #opening-times, #booking-rate {
@@ -366,6 +371,31 @@ iframe {
 
     #photos {
         column-count: 2;
+    }
+
+}
+
+/* Media querry for screen size 600px and down */
+@media screen and (max-width: 600px) {
+
+    section .overview {
+        width: 95%;
+        float: none;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    #booking-form, #opening-times, #booking-rate {
+        width: 95%;
+    }
+
+    #photos {
+        column-count: 1;
+    }
+    
+    #about-page {
+        width: 98%;
+        margin: 5px;
     }
 
 }
