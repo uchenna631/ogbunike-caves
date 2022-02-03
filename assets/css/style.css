@@ -340,10 +340,15 @@ iframe {
     .container {
         width: 100%;
     }
+    
+    #logo {
+        margin-bottom: 0;
+    }
 
     header nav {
         clear: both;       
         float: left;
+        margin: 0;
     }
 
     #cover-text {
