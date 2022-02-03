@@ -14,7 +14,8 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-  }
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -54,7 +55,7 @@ a {
  
 /*Navigation links*/
 
-#menu, #logo {
+header {
     line-height: 75px;
 }
 
@@ -133,14 +134,14 @@ a {
 
 /* Overview section */
 
-#overview {
-    width: auto;
-    margin-top: 30px;    
+body #overview {
+    width: 100%;
+    margin-top: 30px;   
 }
 
-#overview .overview {
+section .overview {
     float: left;
-    width: 22.5%;  
+    width: 23%;  
     margin: 30px 10px;
     padding: 10px;
     border: 1px solid #555;
@@ -235,8 +236,8 @@ img {
 #booking-form, #opening-times, #booking-rate {
     width: 50%;
     float: left;
-    margin: 30px 0 10px;
     box-sizing: border-box;
+    padding: 10px;
 }
 
 .visit p {
@@ -265,7 +266,7 @@ form #submit {
 }
 
 iframe {
-    margin: 20px 0;
+    /* margin: 20px 0; */
     text-align: center;
     clear: both;
     width: 100%;
@@ -285,13 +286,7 @@ iframe {
 
 /* Media querry for screen size 1200px and down */
 @media screen and (max-width: 1200px) {
-    #cover-text{
-        right: 50px;
-        font-size: 100%;
-        width: 250px;
-        height: 180px;
-    }
-
+    
     #logo {
         font-size: 250%;
     }
@@ -299,6 +294,19 @@ iframe {
     #menu li {
        margin-right: 20px;
        letter-spacing: 3px;
+    }
+
+    #cover-text{
+        right: 50px;
+        font-size: 100%;
+        width: 250px;
+        height: 180px;
+    }
+
+    section .overview {
+        width: 47%;
+        padding: 20px;
+        border-radius: 10px;
     }
  
 }
@@ -315,10 +323,49 @@ iframe {
 
     #menu li {
         margin-right: 10px;
-        letter-spacing: 2px;
     }
 
     #photos {
         column-count: 3;
-    }  
+    }   
+}
+
+/* Media querry for screen size 800px and down */
+@media screen and (max-width: 800px) {
+
+    .container {
+        width: 100%;
+    }
+
+    header nav {
+        clear: both;       
+        float: left;
+    }
+
+    #cover-text {
+        right: 10px;
+        bottom: 5px;
+        font-size: 85%;
+        width: 220px;
+        height: 150px;
+    }
+
+    section .overview {
+        width: 43%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #about-page, #booking-form {
+        clear: both;
+    }
+
+    #booking-form, #opening-times, #booking-rate {
+        width: 100%;
+    }
+
+    #photos {
+        column-count: 2;
+    }
+
 }
