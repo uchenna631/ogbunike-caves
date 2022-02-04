@@ -79,3 +79,13 @@ The site was deployed to GitHub pages. The steps followed to deploy the site are
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - https://uchenna631.github.io/ogbunike-caves/
 
+## Credits
+
+### Content
+- Text on the "about" page was taken from UNESCO official website - https://whc.unesco.org/en/tentativelists/5174/
+- Instructions on how to incorporate iframe API was taken from W3C Tutorial - https://www.w3schools.com/tags/tag_iframe.asp 
+- The icons in the footer were taken from Font Awesome - https://fontawesome.com/
+
+Media
+- The entrance to the cave was taken from wikipedia. 
+- The photos used on the home page and the gallery are from visitnigerianow - https://www.visitnigerianow.com/tours/ogbunike-caves/
