@@ -338,7 +338,7 @@ iframe {
 @media screen and (max-width: 800px) {
 
     .container {
-        width: 100%;
+        width: 98%;
     }
     
     #logo {
@@ -396,11 +396,29 @@ iframe {
 
     #photos {
         column-count: 1;
+        padding: 10px;
     }
     
     #about-page {
         width: 98%;
         margin: 5px;
+        padding: 10px;
+
     }
 
+}
+
+/* Media querry for screen size 450px and down */
+@media screen and (max-width: 450px) {
+    #logo {
+        font-size: 180%;
+        letter-spacing: 1px;
+    }
+
+    #menu li {
+        left: 0;
+       margin: 0;
+       padding: 5px;
+       letter-spacing: 0px;
+    }
 }
