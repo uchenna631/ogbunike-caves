@@ -208,9 +208,15 @@ small p {
     font-size: 160%;
 }
 
-/* Gallery page */
+/*Gallery page */
+#gallery h2 {
+    clear: both;
+    left: 0px;
+    margin: 10px;
+}
+
 #photos {
-    clear:both;
+    /* clear:both; */
     line-height: 0;
     column-count: 4;
     column-gap: 0;
@@ -267,7 +273,6 @@ form #submit {
 /*Google map*/
 #google-map h2 {
     clear: both;
-    left: 30px;
 }
 
 iframe {
@@ -329,6 +334,10 @@ iframe {
 
     #menu li {
         margin-right: 10px;
+    }
+
+    #gallery h2 {
+        font-size: 90%;
     }
 
     #photos {
@@ -427,5 +436,10 @@ iframe {
     #about-page {
         width: 100%;
         padding: 5px;
+    }
+
+    #gallery h2 {
+        font-size: 80%;
+        margin: 5px;
     }
 }
