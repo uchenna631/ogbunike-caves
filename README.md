@@ -83,6 +83,7 @@ The live link can be found here - https://uchenna631.github.io/ogbunike-caves/
 
 ### Content
 - Text on the "about" page was taken from UNESCO official website - https://whc.unesco.org/en/tentativelists/5174/
+- Instruction on how to create animation on a hero-image was taken from code institute tutorial 
 - Instructions on how to incorporate iframe API was taken from W3C Tutorial - https://www.w3schools.com/tags/tag_iframe.asp 
 - The icons in the footer were taken from Font Awesome - https://fontawesome.com/
 
