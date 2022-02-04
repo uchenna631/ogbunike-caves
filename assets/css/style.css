@@ -87,7 +87,6 @@ a {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -125,10 +124,8 @@ a {
     padding: 10px;
    
     background-color: rgba(248, 248, 255, 0.7);
-
     bottom: 30px;
     right: 120px;
-
     position: absolute;
 }
 
@@ -211,7 +208,7 @@ small p {
     font-size: 160%;
 }
 
-/* Gallery images */
+/* Gallery page */
 #photos {
     clear:both;
     line-height: 0;
@@ -227,7 +224,7 @@ img {
     width: 100%;
 }
 
-/* Booking form */
+/* visit page */
 .visit h3 {
     margin: 10px 0;
 }
@@ -267,6 +264,7 @@ form #submit {
     font-size: 120%;
 }
 
+/*Google map*/
 iframe {
     /* margin: 20px 0; */
     text-align: center;
@@ -275,7 +273,7 @@ iframe {
     height: 300px;
 }
 
-/* About */
+/* About page*/
 
 #about-page h3 {
     margin: 20px 0;
@@ -285,6 +283,8 @@ iframe {
     text-align: justify;
     margin: 20px 0;
 }
+
+/* Media querries for screen responsiveness*/
 
 /* Media querry for screen size 1200px and down */
 @media screen and (max-width: 1200px) {
@@ -367,14 +367,20 @@ iframe {
     }
 
     section .overview {
-        width: 45%;
-        margin: 10px;
+        width: 95%;
+        float: none;
         padding: 5px;
+        border: none;
     }
+
+    #booking-form, #opening-times, #booking-rate {
+        width: 95%;
+    }
+
 
     #about-page, #booking-form {
         clear: both;
-        width: 80;
+        width: 80%;
     }
 
     #booking-form, #opening-times, #booking-rate {
@@ -384,23 +390,10 @@ iframe {
     #photos {
         column-count: 2;
     }
-
 }
 
 /* Media querry for screen size 600px and down */
 @media screen and (max-width: 600px) {
-
-    section .overview {
-        width: 95%;
-        float: none;
-        padding: 5px;
-        border-radius: 5px;
-    }
-
-    #booking-form, #opening-times, #booking-rate {
-        width: 95%;
-    }
-
     #photos {
         column-count: 1;
         padding: 10px;
@@ -410,9 +403,7 @@ iframe {
         width: 98%;
         margin: 5px;
         padding: 10px;
-
     }
-
 }
 
 /* Media querry for screen size 450px and down */
@@ -427,5 +418,10 @@ iframe {
        margin: 0;
        padding: 5px;
        letter-spacing: 0px;
+    }
+
+    #about-page {
+        width: 100%;
+        padding: 5px;
     }
 }
