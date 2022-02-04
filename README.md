@@ -69,3 +69,12 @@ No errors were returned when passing through the official W3C validator
 No errors were found when passing through the official (Jigsaw) validator
 #### Unfixed Bugs
 None detected.
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+1. In the GitHub repository, click on the "Settings" tab and scroll down to "GitHub pages".
+2. From the GitHub pages, under source, click on the "none" drop down menu and select "main"
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://uchenna631.github.io/ogbunike-caves/
+
