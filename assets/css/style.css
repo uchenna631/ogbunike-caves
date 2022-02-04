@@ -265,8 +265,12 @@ form #submit {
 }
 
 /*Google map*/
+#google-map h2 {
+    clear: both;
+    left: 30px;
+}
+
 iframe {
-    /* margin: 20px 0; */
     text-align: center;
     clear: both;
     width: 100%;

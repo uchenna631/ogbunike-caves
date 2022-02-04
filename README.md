@@ -1,11 +1,14 @@
 # Ogbunike Caves
 
-Ogbunike Caves is a collection of caves in Ogbunike, Oyi local government area, Anambra Nigeria. It is a natural tourist attraction and one of the UNESCO world heritage sites. This site hopes to provide an accurate account of the historical facts and events about Ogbunike Caves. Tourist will have an overview of what it is like to visit Ogbunike Caves. It also hopes to promote the publicity and awareness of Ogbunike Caves in view to attract more tourist and the necessary support towards its conservation.
-the preservation of Ogbunike Caves.
+Ogbunike Caves is a collection of caves in Ogbunike, Oyi local government area, Anambra Nigeria. It is a natural tourist attraction and one of the UNESCO world heritage sites. This site hopes to provide an accurate account of the historical facts and events about Ogbunike Caves. Tourist will have an overview of what it feels like to visit Ogbunike Caves. It also hopes to promote the publicity and awareness of Ogbunike Caves in view to attract funds and the necessary support towards its development and conservation.
 
-# Existing Features
+![Ogbunike caves' view on ami.responsivedesign.is]()
 
-## Navigation Bar
+## Features
+
+### Existing 
+
+#### Navigation Bar
 
 Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About page, Visit page and Gallery page. These pages are identical to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
