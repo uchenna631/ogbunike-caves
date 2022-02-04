@@ -6,7 +6,7 @@ Ogbunike Caves is a collection of caves in Ogbunike, Oyi local government area, 
 
 ## Features
 
-### Existing 
+### Existing Features
 
 #### Navigation Bar
 
@@ -56,5 +56,16 @@ This section is valuable to the user as they will be able to easily identify the
 ![Gallery](https://github.com/uchenna631/ogbunike-caves/blob/main/assets/images/gallery-page.JPG?raw=true)
 
 ### Features Left to Implement
-Another feature idea
-Actions and response on form submission left out due to time and scope limitation
+Actions and response on clicking form submission. This was left out due to time and scope limitation
+
+## Testing
+### Manual Testing
+This site was rigorously tested on different browsers and specifically on Chrome using Chrome DevTools. Tests were conducted for different screen sizes, tablets, and mobile phones. This site performs responsively for screen sizes of 270px max-width and upwards. 
+
+### Validator Testing
+#### HTML
+No errors were returned when passing through the official W3C validator
+#### CSS
+No errors were found when passing through the official (Jigsaw) validator
+#### Unfixed Bugs
+None detected.
