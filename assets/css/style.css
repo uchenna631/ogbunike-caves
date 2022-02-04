@@ -232,12 +232,15 @@ img {
     margin: 10px 0;
 }
 
-#booking-form, #opening-times, #booking-rate {
+#opening-times, #booking-rate, #booking-form {
     width: 50%;
     float: left;
     box-sizing: border-box;
     padding: 10px;
 }
+#booking-form {
+    clear: both;
+} 
 
 .visit p {
     padding-top: 10px;
@@ -332,6 +335,10 @@ iframe {
         width: 95%;
         margin: 10px;
     }
+
+    #booking-form {
+        width: 65%;
+    }
 }
 
 /* Media querry for screen size 800px and down */
@@ -367,11 +374,11 @@ iframe {
 
     #about-page, #booking-form {
         clear: both;
-        width: 90%;
+        width: 80;
     }
 
     #booking-form, #opening-times, #booking-rate {
-        width: 100%;
+        width: 80%;
     }
 
     #photos {
