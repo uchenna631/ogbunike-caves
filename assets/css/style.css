@@ -20,7 +20,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     background-color: #f8f8ff;
-    color: #555;
+    color: #141414;
 }
   
 
@@ -28,7 +28,7 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #30ad23;
+    color: #212121;
 }
 
 p {
@@ -36,7 +36,7 @@ p {
 }
 
 a {
-    color: #555; 
+    color: #212121; 
     text-decoration: none;   
 }
 /* Header */
@@ -68,9 +68,7 @@ header {
 
 a {
     text-decoration: none;
-    color: inherit;
 }
-
 
 #menu a:hover {
     color:  #30ad23;

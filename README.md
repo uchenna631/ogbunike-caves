@@ -2,7 +2,7 @@
 
 Ogbunike Caves is a collection of caves in Ogbunike, Oyi local government area, Anambra Nigeria. It is a natural tourist attraction and one of the UNESCO world heritage sites. This site hopes to provide an accurate account of the historical facts and events about Ogbunike Caves. Tourist will have an overview of what it feels like to visit Ogbunike Caves. It also hopes to promote the publicity and awareness of Ogbunike Caves in view to attract funds and the necessary support towards its development and conservation.
 
-![Ogbunike caves' view on ami.responsivedesign.is](https://github.com/uchenna631/ogbunike-caves/blob/main/assets/images/responsive-design.JPG?raw=true)
+![Ogbunike caves' view on ami.responsivedesign.is](https://github.com/uchenna631/ogbunike-caves/blob/main/assets/images/ami-responsive-design.JPG?raw=true)
 
 ## Features
 
@@ -33,7 +33,7 @@ The overview section will allow the user to have a preview about the Ogbunike Ca
 The footer section includes links to the relevant social media sites (hypothetical social media site) for Ogbunike Caves. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/uchenna631/ogbunike-caves/blob/main/assets/images/footer.JPG?raw=true)
+![Footer]https://github.com/uchenna631/ogbunike-caves/blob/main/assets/images/footer.JPG?raw=true)
 
 #### The About Page
 
@@ -56,11 +56,11 @@ This section is valuable to the user as they will be able to easily identify the
 ![Gallery](https://github.com/uchenna631/ogbunike-caves/blob/main/assets/images/gallery-page.JPG?raw=true)
 
 ### Features Left to Implement
-Actions and response on clicking form submission. This was left out due to time and scope limitation
+The feedback on clicking form submission is the code institue default form dump. This was left out due to time and scope limitations
 
 ## Testing
 ### Manual Testing
-This site was rigorously tested on different browsers and specifically on Chrome using Chrome DevTools. Tests were conducted for different screen sizes, tablets, and mobile phones. This site performs responsively for screen sizes of 270px max-width and upwards. 
+This site was rigorously tested on different browsers and specifically on Chrome using Chrome Development Tools. Tests were conducted for different screen sizes on computers, laptops, tablets, and mobile phones. This site performs responsively for screen sizes of 270px max-width and upwards. 
 
 ### Validator Testing
 #### HTML
