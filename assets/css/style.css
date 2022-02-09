@@ -35,7 +35,7 @@ p {
     text-justify: auto;
 }
 
-a {
+header a{
     color: #212121; 
     text-decoration: none;   
 }
@@ -156,20 +156,28 @@ hr {
     border-top: 1px solid #555;
 }
 
-
+a {
+    color: #212121; 
+    text-decoration: none;
+}
 
 #overview a {
     border-bottom: 1px solid #30ad23;
+    /* color: black; */
+    font-weight: bold;
 }
 
 #overview a:hover {
     color: #30ad23;
-
 }
 
+#book a {
+    margin-top: 20px;
+}
+/* 
 #booking div h3, #booking div p{
     display: inline;
-}
+} */
   
 /* Footer */
 small p {
@@ -255,7 +263,7 @@ img {
     margin: 5px 10px;
 }
 
-form .text, form #email, form #mnumber, form #datetime {
+form .text, form #email, form #phone, form #datetime {
     width: 85%;
     border: 1px solid #8bf182;
     border-radius: 2px;
@@ -406,15 +414,15 @@ iframe {
 /* Media querry for screen size 450px and down */
 @media screen and (max-width: 450px) {
     #logo {
-        font-size: 180%;
+        font-size: 130%;
         letter-spacing: 1px;
     }
 
     #menu li {
         left: 0;
        margin: 0;
-       padding: 5px;
-       letter-spacing: 0px;
+       padding: 0;
+       letter-spacing: 0;
     }
 
     #gallery h2 {
