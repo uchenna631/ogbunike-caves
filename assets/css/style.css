@@ -293,6 +293,8 @@ iframe {
 #about-page p {
     text-align: justify;
     margin: 20px 0;
+    padding: 0;
+    width: 100%;
 }
 
 /* Media querries for screen responsiveness*/
@@ -346,10 +348,6 @@ iframe {
         column-count: 3;
     }
     
-    #about-page {
-        width: 95%;
-    }
-
     #booking-form {
         width: 65%;
     }
@@ -359,9 +357,9 @@ iframe {
 @media screen and (max-width: 800px) {
 
     .container {
-        width: 98%;
+        max-width: 100%;
     }
-    
+
     #logo {
         margin-bottom: 0;
     }
@@ -402,12 +400,7 @@ iframe {
         column-count: 1;
         padding: 10px;
     }
-    
-    #about-page {
-        width: 96%;
-        margin: 5px;
-        padding: 5px;
-    }
+
 }
 
 /* Media querry for screen size 450px and down */
