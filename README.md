@@ -124,8 +124,9 @@ This section is valuable to the user as they will be able to easily identify the
 ![Gallery](https://github.com/uchenna631/ogbunike-caves/blob/main/assets/images/gallery-page.JPG?raw=true)
 
 ### Features Left to Implement
+- Form validation: pattern matching implementation to help the user eliminate error inputs
 - The feedback on clicking form submission is the code institue default form dump. This was left out due to time and scope limitations
-- Live updates, events and animation to improve user experience.
+- Live updates, visual effects and animation to improve user experience.
 
 ## Technologies used
 ___
