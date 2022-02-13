@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-/* body container */
+/* The body container */
 .container {
     max-width: 90%;
     padding-right: 15px;
@@ -35,11 +35,12 @@ p {
     text-justify: auto;
 }
 
-header a{
+a {
     color: #212121; 
     text-decoration: none;   
 }
-/* Header */
+
+/* The header section*/
 
 #header, #footer {
     width: 100%;
@@ -53,7 +54,7 @@ header a{
     color:#30ad23;
 }
  
-/*Navigation links*/
+/* The navigation links*/
 
 header {
     line-height: 75px;
@@ -64,10 +65,7 @@ header {
     list-style: none;
     margin-right: 30px;
     letter-spacing: 4px;
-}
-
-a {
-    text-decoration: none;
+    font-size: 110%;
 }
 
 #menu a:hover {
@@ -80,7 +78,7 @@ a {
     border-bottom: 1px solid #30ad23;
 }
 
-/*Hero Image*/
+/* The Hero-image*/
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -110,7 +108,7 @@ a {
     }
 }
 
-/* Hero image cover text */
+/* Hero-image cover text */
 #cover-text {
     font-size: 110%;
     font-family: "Oswald", sans-serif;
@@ -127,7 +125,7 @@ a {
     position: absolute;
 }
 
-/* Overview section */
+/* The overview section */
 
 body #overview {
     width: 100%;
@@ -156,11 +154,6 @@ hr {
     border-top: 1px solid #555;
 }
 
-a {
-    color: #212121; 
-    text-decoration: none;
-}
-
 #overview a {
     border-bottom: 1px solid #30ad23;
     /* color: black; */
@@ -174,12 +167,8 @@ a {
 #book a {
     margin-top: 20px;
 }
-/* 
-#booking div h3, #booking div p{
-    display: inline;
-} */
   
-/* Footer */
+/* The footer section*/
 small p {
       margin-top: 10px;
       padding: 5px;
@@ -214,11 +203,11 @@ small p {
     font-size: 160%;
 }
 
-/*Gallery page */
+/*The gallery page */
 #gallery h2 {
     clear: both;
-    left: 0px;
-    margin: 10px;
+    color: #141414;
+    margin-bottom: 10px;
 }
 
 #photos {
@@ -235,7 +224,7 @@ img {
     width: 100%;
 }
 
-/* visit page */
+/* The visit page */
 .visit h3 {
     margin: 10px 0;
 }
@@ -292,7 +281,7 @@ iframe {
     height: 300px;
 }
 
-/* About page*/
+/*The About page*/
 #about-page h3 {
     margin: 20px 0;
     clear: both;
@@ -315,8 +304,8 @@ iframe {
     }
 
     #menu li {
-       margin-right: 20px;
        letter-spacing: 3px;
+       margin-right: 20px;
     }
 
     #cover-text{
@@ -331,6 +320,10 @@ iframe {
         padding: 20px;
         border-radius: 10px;
     }
+
+    #gallery h2 {
+        font-size: 90%;
+    }
  
 }
 
@@ -341,11 +334,12 @@ iframe {
     }
     
     #logo {
-        font-size: 230%;
+        font-size: 240%;
     }
 
     #menu li {
         margin-right: 10px;
+        letter-spacing: 2px;
     }
 
     #gallery h2 {
@@ -400,6 +394,10 @@ iframe {
     #photos {
         column-count: 2;
     }
+
+    #gallery h2 {
+        font-size: 75%;
+    }
 }
 
 /* Media querry for screen size 600px and down */
@@ -409,24 +407,28 @@ iframe {
         padding: 10px;
     }
 
+    #gallery h2 {
+        font-size: 65%;
+    }
+
 }
 
 /* Media querry for screen size 450px and down */
 @media screen and (max-width: 450px) {
     #logo {
         font-size: 130%;
-        letter-spacing: 1px;
     }
 
     #menu li {
-        left: 0;
-       margin: 0;
+       margin-right: 5px;
        padding: 0;
-       letter-spacing: 0;
+       letter-spacing: 1px;
+       font-size: 100%;
     }
 
     #gallery h2 {
-        font-size: 80%;
+        font-size: 50%;
         margin: 5px;
+        letter-spacing: 1px;
     }
 }
